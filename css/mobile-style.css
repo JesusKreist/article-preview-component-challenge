@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Manrope:wght@500;700&display=swap');
+
+/* font-family: 'IBM Plex Sans', sans-serif;
+
+font-family: 'Manrope', sans-serif;
+ */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+}
+
+.card {
+    /* height: 100vmax; */
+    margin: auto;
+    width: 87.2%;
+    max-width: 660px;
+    display: grid;    
+    margin-top: 5rem;
+    justify-content: center;
+    align-content: center;
+    /* grid-auto-flow: row; */
+    /* border: 2px solid green; */
+}
+
+.img_container {
+    height: 13rem;
+    overflow: hidden;
+}
+
+.card__image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: .7rem;
+    border-top-right-radius: .7rem;
+    object-position: 0 -.9rem;
+}
+
+.card__description {
+    word-spacing: .2rem;
+    color: hsl(217, 19%, 35%);
+    background-color: white;
+    padding-bottom: 1rem;
+    padding-top: 2.3rem;
+    padding-right: 1.51rem;
+    padding-left: 1.51rem;
+    line-height: 1.5;
+}
+
+.card__description__header {
+    font-weight: 700;
+    padding-bottom: .5rem;
+}
+
+.card__description__paragraph {
+    font-weight: 500;
+    line-height: 1.6;
+    font-size: 13px;
+}
+
+.share {    
+    background-color: hsl(217, 19%, 35%);    
+    border-bottom-left-radius: .7rem;
+    border-bottom-right-radius: .7rem;    
+    padding-right: 1.51rem;
+    padding-left: 1.51rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* display: none; */
+}
+
+.share__text {
+    letter-spacing: .3rem;
+    color:hsl(212, 23%, 69%);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.share__icons {
+    font-size: 17px;
+    display: grid;
+    column-gap: 1rem;
+    grid-auto-flow: column;
+    margin-left: -3rem;
+
+}
+
+.share-color {
+    color: white;
+}
+
+/* .icon-flex {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+} */
+
+.icon-flex, .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.icon-wrapper {
+    border-radius: 50%;
+    overflow: hidden;
+    /* border: 1px solid white; */
+    /* font-size: 1rem; */
+    width: 2.5rem;
+    height: 2.5rem;    
+    background-color: hsl(214, 17%, 51%)
+}
+.icon-wrapper i {
+    color: hsl(210, 46%, 95%);
+}
