@@ -2,12 +2,8 @@ let shareButton = document.querySelector(".user__icon");
 let share = document.querySelector(".share");
 let userIcon = document.querySelector(".user__icon i");
 let mainBody = document.querySelector(".body");
-let rootBody = document.querySelector(".root")
 
 let screenHeight = `${window.innerHeight}px`;
-let rootHeight = `${rootBody.clientHeight}px`;
-// console.log("The screen height is" + screenHeight);
-// console.log("The root height is" + rootHeight)
 mainBody.style.height = screenHeight;
 
 let state = 0;

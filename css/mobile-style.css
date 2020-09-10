@@ -18,12 +18,9 @@
 }
 
 .card {
-    margin: auto;
     width: 87.2%;
     max-width: 660px;
     display: grid;
-    justify-content: center;
-    align-content: center;
 }
 
 .img_container {
