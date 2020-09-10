@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Manrope:wght@500;700&display=swap');
 
-/* font-family: 'IBM Plex Sans', sans-serif;
-
-font-family: 'Manrope', sans-serif;
- */
 
 .attribution {
     font-size: 11px;
@@ -19,7 +15,6 @@ font-family: 'Manrope', sans-serif;
 }
 
 .card {
-    /* height: 100vmax; */
     margin: auto;
     width: 87.2%;
     max-width: 660px;
@@ -27,8 +22,6 @@ font-family: 'Manrope', sans-serif;
     margin-top: 5rem;
     justify-content: center;
     align-content: center;
-    /* grid-auto-flow: row; */
-    /* border: 2px solid green; */
 }
 
 .img_container {
