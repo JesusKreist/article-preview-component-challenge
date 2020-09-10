@@ -1,7 +1,11 @@
 let shareButton = document.querySelector(".user__icon");
 let share = document.querySelector(".share");
 let userIcon = document.querySelector(".user__icon i");
+let mainBody = document.querySelector(".body")
 
+let screenHeight = `${window.screen.availHeight}px`;
+console.log(screenHeight);
+mainBody.style.height = screenHeight;
 
 let state = 0;
 const toggleShare = (event) => {

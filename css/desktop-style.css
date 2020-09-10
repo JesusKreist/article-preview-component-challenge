@@ -1,7 +1,12 @@
 @media screen and (min-width: 1000px) {
+    .body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .card {
-        padding-top: 35vh;
-        padding-bottom: 35vh;
+        margin: auto;
         max-width: 730px;
         grid-template-columns: minmax(auto, 285px) 1fr;
         grid-template-rows: minmax(auto, 280px);
