@@ -109,8 +109,12 @@ font-family: 'Manrope', sans-serif;
     margin-top: -4.4rem;
     border-bottom-left-radius: .7rem;
     border-bottom-right-radius: .7rem;
-    display: none;
-    
+    opacity: 0;
+    transition: opacity .5s ease-in-out;    
+}
+
+.share.active {
+    transition: opacity .5s ease-in-out;
 }
 
 .share__text {

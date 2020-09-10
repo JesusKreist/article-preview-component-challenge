@@ -55,7 +55,6 @@
 
     .share {
         margin-top: -.4rem;
-        display: flex;
         position: relative;
         background: #48556a;
         border-radius: .4em;
@@ -64,6 +63,7 @@
         padding-bottom: 1.5rem;
         bottom: 9.6rem;
         left: 35.2rem;
+
         /* padding: 0; */
     }
 
