@@ -1,0 +1,96 @@
+@media screen and (min-width: 1000px) {
+    .card {
+        padding-top: 35vh;
+        padding-bottom: 35vh;
+        max-width: 730px;
+        grid-template-columns: minmax(auto, 285px) 1fr;
+        grid-template-rows: minmax(auto, 280px);
+    }
+
+    .user {
+        grid-column: 2;
+    }
+
+    .img_container {
+        background-image: url("../images/drawers.jpg");
+        border: unset;
+        padding: unset;
+        margin: unset;
+        height: auto;
+        overflow: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom-left-radius: .5rem;
+        border-top-left-radius: .5rem;
+    }
+
+
+    .card__image {
+        all: unset;
+        display: none;
+    }
+
+    .card__description {
+        word-spacing: .2rem;
+        color: hsl(217, 19%, 35%);
+        background-color: white;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        line-height: 1.5;
+        border-radius: unset;
+        border-bottom-right-radius: .5rem;
+        border-top-right-radius: .5rem;
+    }
+
+    .card__description__header {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .user__info {
+        margin-left: -10.5rem;
+    }
+
+    .share__desktop {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: -.4rem;
+        border-bottom-left-radius: .7rem;
+        border-bottom-right-radius: .7rem;
+        display: flex;
+        position: relative;
+        background: #48556a;
+        border-radius: .4em;
+        width: 240px;
+        padding-top: .9rem;
+        padding-bottom: 1rem;
+        justify-content: space-evenly;
+        bottom: 7.2rem;
+        left: 15.2rem;
+        display: none;
+    }
+
+    .share__desktop:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border: 1em solid transparent;
+        border-top-color: #48556a;
+        border-bottom: 0;
+        margin-left: -1rem;
+        margin-bottom: -.7rem;
+        /* margin-top: -1rem; */
+    }
+
+    .share__desktop__icons {
+        margin: unset;
+        font-size: 14px;
+    }
+}

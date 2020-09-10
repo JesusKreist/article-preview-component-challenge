@@ -51,9 +51,11 @@ font-family: 'Manrope', sans-serif;
     background-color: white;
     padding-bottom: 1rem;
     padding-top: 2.3rem;
-    padding-right: 1.51rem;
-    padding-left: 1.51rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
     line-height: 1.5;
+    border-bottom-left-radius: .7rem;
+    border-bottom-right-radius: .7rem;  
 }
 
 .card__description__header {
@@ -65,20 +67,49 @@ font-family: 'Manrope', sans-serif;
     font-weight: 500;
     line-height: 1.6;
     font-size: 13px;
+    padding-bottom: .5rem;
 }
-
+.user,
 .share {    
     background-color: hsl(217, 19%, 35%);    
-    border-bottom-left-radius: .7rem;
-    border-bottom-right-radius: .7rem;    
-    padding-right: 1.51rem;
-    padding-left: 1.51rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* display: none; */
+    display: none;
+}
+
+.user {
+    display: flex;
+    background: white;
+    padding-top: .7rem;
+}
+
+.user__avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.user__info {
+    color: hsl(217, 19%, 35%);
+    line-height: 1.6;
+    font-size: .8rem;
+    margin-left: -3.5rem;
+}
+
+.user__info__name {
+    font-weight: 700;
+}
+
+.share {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: -.4rem;
+    border-bottom-left-radius: .7rem;
+    border-bottom-right-radius: .7rem;
 }
 
 .share__text {
@@ -101,10 +132,6 @@ font-family: 'Manrope', sans-serif;
     color: white;
 }
 
-/* .icon-flex {
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
-} */
 
 .icon-flex, .icon-wrapper {
     display: flex;
@@ -115,12 +142,23 @@ font-family: 'Manrope', sans-serif;
 .icon-wrapper {
     border-radius: 50%;
     overflow: hidden;
-    /* border: 1px solid white; */
-    /* font-size: 1rem; */
-    width: 2.5rem;
-    height: 2.5rem;    
-    background-color: hsl(214, 17%, 51%)
+    width: 2rem;
+    height: 2rem;    
+    background-color: hsl(214, 17%, 51%);
 }
+
 .icon-wrapper i {
     color: hsl(210, 46%, 95%);
+}
+
+.user__icon {
+    background-color: hsl(210, 46%, 95%);
+}
+
+.user__icon i {
+    color: hsl(214, 17%, 51%)
+}
+
+.share__desktop {
+    display: none;
 }

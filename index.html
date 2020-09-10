@@ -9,8 +9,6 @@
   <link rel="stylesheet" href="css/mobile-style.css">
   <link rel="stylesheet" href="css/desktop-style.css">
   <link rel="stylesheet" href="css/fontawesome-free-5.14.0-web/css/all.css">
-
-  <script src="scripts/app.js"></script>  
   <title>Frontend Mentor | Article preview component</title>
 </head>
 <body class="body">
@@ -22,31 +20,40 @@
     </figure>
 
     <section class="card__description">
+      
       <h2 class="card__description__header">
         Shift the overall look and feel by adding these wonderful
         touches to furniture in your home
       </h2>
+
       <p class="card__description__paragraph">
         Ever been in a room and felt like something was missing?
         Perhaps it felt slightly bare and uninviting.
         I’ve got some simple tips to help you make any room feel
         complete.
       </p>
-      
-      <!-- <div class="user">
+
+      <div class="user">
         <div><img class="user__avatar" src="images/avatar-michelle.jpg"></div>
-        <div>
-          <h4>Michelle Appleton</h4>
+        <div class="user__info">
+          <h4 class="user__info__name">Michelle Appleton</h4>
           <p>28 Jun 2020</p>
         </div>
         <div class="icon-flex">
-          <div class="icon-wrapper"><i class="fas fa-share"></i></div>
+          <div class="icon-wrapper user__icon"><i class="fas fa-share fa-sm"></i></div>
         </div>
-      </div> -->
+      </div>
 
-      
+      <div class="share__desktop">
+        <h4 class="share__text share__desktop__text">SHARE</h4>
+        <div class="share__icons share__desktop__icons">
+          <figure><i class="fab fa-facebook-square fa-lg share-color"></i></figure>
+          <figure><i class="fab fa-twitter fa-lg share-color"></i></figure>
+          <figure><i class="fab fa-pinterest fa-lg share-color"></i></figure>
+        </div>
 
-    </section>
+    </section>    
+
     <div class="share">
       <h4 class="share__text">SHARE</h4>
       <div class="share__icons">
@@ -55,10 +62,12 @@
         <figure><i class="fab fa-pinterest fa-lg share-color"></i></figure>
       </div>
       <div class="icon-flex">
-        <div class="icon-wrapper"><i class="fas fa-share fa-lg"></i></div>
-      </div>
-    
+        <div class="icon-wrapper shared_icon"><i class="fas fa-share fa-lg"></i></div>
+      </div>    
     </div>
+
+    
+
   </main>
 
   
@@ -74,4 +83,5 @@
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
 </body>
+<script src="scripts/app.js"></script>  
 </html>
