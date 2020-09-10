@@ -53,28 +53,21 @@
         margin-left: -10.5rem;
     }
 
-    .share__desktop {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+    .share {
         margin-top: -.4rem;
-        border-bottom-left-radius: .7rem;
-        border-bottom-right-radius: .7rem;
         display: flex;
         position: relative;
         background: #48556a;
         border-radius: .4em;
-        width: 240px;
-        padding-top: .9rem;
-        padding-bottom: 1rem;
-        justify-content: space-evenly;
-        bottom: 7.2rem;
-        left: 15.2rem;
-        display: none;
+        width: 224px;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        bottom: 9.6rem;
+        left: 35.2rem;
+        /* padding: 0; */
     }
 
-    .share__desktop:after {
+    .share:after {
         content: '';
         position: absolute;
         bottom: 0;
@@ -86,11 +79,12 @@
         border-bottom: 0;
         margin-left: -1rem;
         margin-bottom: -.7rem;
-        /* margin-top: -1rem; */
     }
 
-    .share__desktop__icons {
+    .share__icons {
         margin: unset;
         font-size: 14px;
+        padding: 0;
     }
+
 }
