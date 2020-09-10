@@ -21,7 +21,7 @@ const toggleShare = (event) => {
         default:
             console.log("Error occured!")
             throw new Error("Something went wrong with the desktop one!")
-        }
+    }
 }
 
 shareButton.addEventListener("click", toggleShare);
