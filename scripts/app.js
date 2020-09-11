@@ -3,8 +3,6 @@ let share = document.querySelector(".share");
 let userIcon = document.querySelector(".user__icon i");
 let mainBody = document.querySelector(".body");
 
-let screenHeight = `${window.innerHeight}px`;
-mainBody.style.height = screenHeight;
 
 let state = 0;
 const toggleShare = (event) => {
