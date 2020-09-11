@@ -2,9 +2,19 @@
 
 
 .attribution {
-    font-size: 11px;
+    font-size: 15px;
     text-align: center;
+    margin: 2rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    position: absolute;
+    bottom: 1rem;
 }
+
+.attribution p {
+    display: block;
+    padding-bottom: .5rem;
+}
+
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
@@ -16,6 +26,8 @@
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 
 .card {
